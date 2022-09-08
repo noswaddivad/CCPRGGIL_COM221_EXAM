@@ -1,0 +1,18 @@
+public class App {
+
+public static void main(String[] args) {
+    
+    Exam info = new Exam();
+    info.surname = "David";
+    info.firstname = "Dawson";
+    info.middlename = "M.";
+    info.dateOfBirth = "July 1, 2003";
+    info.studentNumber = 2022104033;
+    info.studentEmailAddress = "daviddm@students.national-u.edu.ph";
+    info.iAmAwesome = true;
+    info.saymystudentnumber();
+    info.saymyemailaddress();
+    info.amIawesome();
+
+    }        
+}
