@@ -1,0 +1,21 @@
+public class Exam {
+    String surname;
+    String firstname;
+    String middlename;
+    String dateOfBirth;
+    int studentNumber;
+    String studentEmailAddress;
+    boolean iAmAwesome;
+
+    public void saymystudentnumber() {
+        System.out.println("My student number is " + studentNumber);
+    }
+
+    public void saymyemailaddress() {
+        System.out.println("My email address is " + studentEmailAddress);
+    
+    }
+    public void amIawesome(){
+        System.out.println("am I awesome?" + iAmAwesome);
+    }
+}
